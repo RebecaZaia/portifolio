@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rebeca Zaia · Portfólio Acadêmico</title>
+  <meta name="description" content="Portfólio acadêmico de Rebeca Zaia, estudante de Informática: projetos, formação, habilidades e contato.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo" aria-label="Voltar ao início">
+        <span class="logo-bracket">&lt;</span>Rebeca Zaia<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#formacao" class="nav-link">Formação</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn-small btn-outline nav-cta">
+          <i data-lucide="send"></i> Fale comigo
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-tag animate__animated animate__fadeInDown">
+            <span class="status-dot"></span> Estudante do 6° semestre de Técnico em Informática
+          </p>
+          <h1 class="hero-title animate__animated animate__fadeInUp">
+            Olá, eu sou a <span class="text-gradient">Rebeca Alice Garcia Zaia</span>
+          </h1>
+          <ul class="hero-meta animate__animated animate__fadeInUp animate__delay-1s">
+            <li><i data-lucide="graduation-cap"></i> Técnico em Informática</li>
+            <li><i data-lucide="building-2"></i> IFMS</li>
+          </ul>
+          <p class="hero-text placeholder-text animate__animated animate__fadeIn animate__delay-1s">
+            Sou estudante de Informática no Instituto Federal de Mato Grosso do Sul (IFMS), interessada em tecnologia e desenvolvimento de sistemas. 
+            Sou uma pessoa curiosa, dedicada e gosto de aprender na prática, buscando compreender como as coisas funcionam. 
+            Ao longo da minha formação, venho explorando diferentes áreas da computação por meio de projetos e atividades acadêmicas.
+          </p>
+          <div class="hero-actions animate__animated animate__fadeInUp animate__delay-1s">
+            <a href="#projetos" class="btn btn-primary">
+              Conheça meus projetos <i data-lucide="arrow-down-right"></i>
+            </a>
+            <a href="#contato" class="btn btn-ghost">Contato</a>
+          </div>
+        </div>
+
+        <!-- Elemento visual: pode ser substituído por foto ou ilustração em assets/images -->
+        <div class="hero-visual animate__animated animate__fadeIn" aria-hidden="true">
+          <div class="visual-orb"></div>
+          <div class="visual-grid"></div>
+          <div class="visual-window">
+            <div class="window-bar"><span></span><span></span><span></span></div>
+            <pre class="window-code"><code><span class="c-key">const</span> estudante = {
+  curso: <span class="c-str">"Técnico em Informática"</span>,
+  aprendendo: <span class="c-key">true</span>,
+  café: <span class="c-num">∞</span>
+};</code></pre>
+          </div>
+          <span class="visual-chip chip-pink"><i data-lucide="sparkles"></i></span>
+          <span class="visual-chip chip-mint"><i data-lucide="code-2"></i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">01</span>
+          <h2>Sobre mim</h2>
+          <p class="section-subtitle">Um pouco da minha caminhada na tecnologia.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card reveal">
+            <span class="icon-badge icon-lilac"><i data-lucide="route"></i></span>
+            <h3>Minha trajetória</h3>
+            <p class="placeholder-text">
+              Meu interesse pela programação começou antes do ensino médio, com um curso de Algoritmos e Lógica de Programação, que despertou minha curiosidade sobre o desenvolvimento de sistemas. A partir disso, ingressei no curso técnico integrado em Informática do IFMS, onde venho desenvolvendo conhecimentos em diferentes áreas da tecnologia por meio de atividades e projetos acadêmicos.
+            </p>
+          </article>
+          <article class="info-card reveal">
+            <span class="icon-badge icon-pink"><i data-lucide="heart"></i></span>
+            <h3>Interesses</h3>
+            <p class="placeholder-text">
+              Tenho interesse em desenvolvimento de software e criação de sistemas. Gosto de aprender programação na prática, entender como as aplicações funcionam e explorar diferentes tecnologias.
+              Também tenho interesse em conhecer outras áreas da computação e ampliar meus conhecimentos.
+            </p>
+          </article>
+          <article class="info-card reveal">
+            <span class="icon-badge icon-mint"><i data-lucide="target"></i></span>
+            <h3>Objetivos</h3>
+            <p class="placeholder-text">
+              Pretendo aprofundar meus conhecimentos em desenvolvimento de sistemas e ingressar no ensino superior em Engenharia de Software. 
+              Quero construir uma carreira na área de tecnologia, participando da criação de aplicações e soluções úteis.
+              E sempre continuar aprendendo, desenvolver projetos cada vez mais completos e explorar diferentes possibilidades dentro da computação.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos (gerados por js/projects.js) -->
+    <section class="section section-alt" id="projetos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">02</span>
+          <h2>Projetos</h2>
+          <p class="section-subtitle">Trabalhos acadêmicos e pessoais desenvolvidos durante a formação.</p>
+        </div>
+
+        <div id="featured-project"></div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- Formação (gerada por js/projects.js, dados em educationData) -->
+    <section class="section" id="formacao">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">03</span>
+          <h2>Formação e atividades</h2>
+          <p class="section-subtitle">Curso, certificados, atividades acadêmicas e eventos.</p>
+        </div>
+
+        <div class="education-groups" id="education-groups"></div>
+      </div>
+    </section>
+
+    <!-- Habilidades (geradas por js/projects.js, dados em skillsData) -->
+    <section class="section section-alt" id="habilidades">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">04</span>
+          <h2>Habilidades e tecnologias</h2>
+          <p class="section-subtitle">Ferramentas e conhecimentos que uso e estudo.</p>
+        </div>
+
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="contact-box reveal">
+          <span class="section-index">05</span>
+          <h2>Vamos conversar?</h2>
+          <p class="placeholder-text contact-text">
+            Tenho interesse em continuar aprendendo e aprimorando minhas habilidades, buscando oportunidades de ingressar no mercado de trabalho, adquirir experiência e crescer profissionalmente na área de tecnologia.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <!-- Substitua pelo seu e-mail: mailto:seu@email.com -->
+              <a href="mailto:rebecazaia32@gmail.com" class="contact-item">
+                <span class="icon-badge icon-lilac"><i data-lucide="mail"></i></span>
+                <span><strong>E-mail</strong><small>rebecazaia32@gmail.com</small></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/RebecaZaia" class="contact-item" target="_blank" rel="noopener">
+                <span class="icon-badge icon-pink"><img class="github-icon" src="assets/images/github.png" alt=""></span>
+                <span><strong>GitHub</strong><small>github.com/RebecaZaia</small></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/rebeca-alice-garcia-zaia-075bb73bb/" class="contact-item" target="_blank" rel="noopener">
+                <span class="icon-badge icon-mint"><img src="assets/images/linkedin.png" alt=""></span>
+                <span><strong>LinkedIn</strong><small>Rebeca Alice Garcia Zaia</small></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Rebeca Zaia · <span id="current-year"></span></p>
+      <p class="footer-phrase">Feito com HTML, CSS, JavaScript e muita curiosidade.</p>
+      <div class="footer-links">
+        <a href="https://github.com/RebecaZaia" aria-label="GitHub" target="_blank" rel="noopener"><img class="github-icon" src="assets/images/github.png" alt=""></a>
+        <a href="#contato" aria-label="Contato"><i data-lucide="mail"></i></a>
+        <a href="#inicio" aria-label="Voltar ao topo"><i data-lucide="arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

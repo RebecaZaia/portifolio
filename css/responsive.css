@@ -1,0 +1,91 @@
+/* ===== Tablet ===== */
+@media (max-width: 1024px) {
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+  .nav-list { gap: 1.1rem; }
+  .main-nav { gap: 1.25rem; }
+}
+
+/* ===== Menu compacto ===== */
+@media (max-width: 860px) {
+  .menu-toggle { display: inline-flex; }
+
+  .main-nav {
+    position: absolute; 
+    top: var(--header-height); 
+    left: 0; 
+    right: 0;
+    flex-direction: column; 
+    align-items: stretch; 
+    gap: 1rem;
+    padding: 1.25rem 1.5rem 1.5rem; 
+    background: var(--bg-alt);
+    border-bottom: 1px solid var(--border);
+    max-height: calc(100vh - var(--header-height)); 
+    overflow-y: auto;
+    transform: translateY(-0.5rem); 
+    opacity: 0; 
+    visibility: hidden;
+    transition: 
+      opacity var(--transition), 
+      transform var(--transition), 
+      visibility var(--transition);
+  }
+  
+  .main-nav.is-open { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: translateY(0); 
+  }
+  
+  .nav-list { flex-direction: column; gap: 0; }
+  
+  .nav-link { 
+    display: block; 
+    padding: 0.8rem 0; 
+    font-size: 1rem; 
+    border-bottom: 1px solid var(--border); 
+  }
+  .nav-link::after { display: none; }
+  .nav-cta { min-height: 2.9rem; }
+
+  .hero-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .hero { min-height: auto; }
+  .hero-visual { max-width: 380px; }
+
+  .about-grid { grid-template-columns: 1fr; }
+  .featured-project { grid-template-columns: 1fr; }
+  
+  .featured-project .media-placeholder { 
+    aspect-ratio: 16 / 10; 
+    border-right: 0; 
+    border-bottom: 1px solid var(--border); 
+  }
+
+  .education-groups { grid-template-columns: 1fr; }
+  .contact-list { grid-template-columns: 1fr; }
+}
+
+/* ===== Celular ===== */
+@media (max-width: 600px) {
+  .container { width: min(100% - 2rem, 1140px); }
+  .section { padding: 4.5rem 0; }
+  .projects-grid, .skills-grid { grid-template-columns: 1fr; }
+  .featured-body { padding: 1.5rem; }
+  .hero-actions .btn { width: 100%; }
+  .contact-box { padding: 2.5rem 1.25rem; }
+  .footer-inner { flex-direction: column; text-align: center; }
+  .window-code { font-size: 0.75rem; }
+}
+
+/* ===== Movimento reduzido ===== */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *, *::before, *::after { 
+    animation-duration: 0.01ms !important; 
+    animation-iteration-count: 1 !important; 
+    transition-duration: 0.01ms !important; 
+  }
+  .js-enabled .reveal { opacity: 1; }
+}
