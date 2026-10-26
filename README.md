@@ -1,4 +1,4 @@
-# Portfólio Acadêmico — [Seu nome]
+# Portifólio Acadêmico
 
 Site pessoal para apresentar minha trajetória acadêmica, projetos, habilidades e trabalhos desenvolvidos durante a formação em Informática.
 
@@ -42,4 +42,4 @@ portfolio/
 ## Acesso
 
 - **Repositório:** [GitHub] https://github.com/RebecaZaia/portfolio
-- **Portfólio:** [GitHub Pages] https://rebecazaia.github.io/portfolio/
+- **Portifólio:** [GitHub Pages] https://rebecazaia.github.io/portfolio/
