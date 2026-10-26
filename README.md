@@ -6,7 +6,7 @@ Site pessoal para apresentar minha trajetória acadêmica, projetos, habilidades
 
 - HTML5
 - CSS3
-- JavaScript puro
+- JavaScript
 - [Animate.css](https://animate.style/) (animações, via CDN)
 - [Lucide Icons](https://lucide.dev/) (ícones, via CDN)
 - Git e GitHub Pages
@@ -41,5 +41,5 @@ portfolio/
 
 ## Acesso
 
-- **Repositório:** [GitHub]
-- **Portfólio:** [GitHub Pages]
+- **Repositório:** [GitHub] https://github.com/RebecaZaia/portfolio
+- **Portfólio:** [GitHub Pages] https://rebecazaia.github.io/portfolio/
