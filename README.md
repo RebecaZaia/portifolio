@@ -41,5 +41,5 @@ portfolio/
 
 ## Acesso
 
-- **Repositório:** [GitHub] https://github.com/RebecaZaia/portfolio
-- **Portifólio:** [GitHub Pages] https://rebecazaia.github.io/portfolio/
+- **Repositório:** [GitHub] https://github.com/RebecaZaia/portifolio
+- **Portifólio:** [GitHub Pages] https://rebecazaia.github.io/portifolio/
